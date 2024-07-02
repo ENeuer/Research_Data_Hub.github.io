@@ -8,15 +8,15 @@ body, h1, h2, p, ul, li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ecf0f1;
+    color: #2c3e50;
 }
 
 /* Header styling */
 header {
-    background: #333;
+    background: #3498db;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -54,13 +54,28 @@ main {
 
 h2 {
     margin-bottom: 20px;
+    color: #3498db;
+}
+
+/* Button styling */
+button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #c0392b;
 }
 
 /* Footer styling */
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #3498db;
     color: #fff;
     position: fixed;
     width: 100%;
