@@ -18,13 +18,13 @@ body {
     padding-top: 70px;
 }
 
-header h1 {
+h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-section h2 {
+h2 {
     color: #45474B;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
@@ -102,8 +102,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*background: #F5F7F8;*/
-    background: #ac3c61;
+    background: #F5F7F8;
     padding: 60px 30px;
 }
 
@@ -131,46 +130,20 @@ nav ul li a:hover {
     line-height: 2.0;
 }
 
-.hero-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.hero-buttons .btn-primary {
-    text-decoration: none;
-    background: #ac3c61;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 15px;
-    border: none;
-}
-
-p a.btn-primary {
+p a.btn{
     text-decoration: underline;
-    color: #f4ce14; /* Change to your desired color */
+    color: #87ceeb;
+    /*color: #f4ce14; /* Change to your desired color */
     font-style: italic;
+    font-weight: bold;
     background: none; /* Remove background */
     padding: 0; /* Remove padding */
     border-radius: 0; /* Remove border radius */
     border: none; /* Remove border */
 }
 
-.hero-buttons .btn-primary:hover {
-    background: #fff;
-    color: #ac3c61;
-}
-
-.hero-buttons .btn-secondary {
-    text-decoration: none;
-    background: #EEE2DC;
-    color: #ac3c61;
-    padding: 10px 20px;
-    border-radius: 15px;
-    border: 2px solid #ac3c61;
-}
-
-.hero-buttons .btn-secondary:hover {
-    background: #e6f0ff;
+p a.btn:hover{
+    color: #f4ce14;
 }
 
 .hero-image img {
@@ -256,11 +229,12 @@ p a.btn-primary {
   border-radius: 15px;
   transition: background 0.3s;
   margin-top: 10px;
-  font-weight: bold;
+
 }
 
 .cta-button:hover {
-  background: #0056b3;
+  background: #f4ce14;
+  color: #45474B;
 }
 
 @media (max-width: 768px) {
@@ -297,8 +271,8 @@ p a.btn-primary {
 
 .about .profile-img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin-right: 20px;
 }
