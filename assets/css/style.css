@@ -96,13 +96,14 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+
 /* Hero section */
 .hero {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #F5F7F8;
-    /*background: #ac3c61;*/
+    /*background: #F5F7F8;*/
+    background: #ac3c61;
     padding: 60px 30px;
 }
 
