@@ -7,62 +7,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap"
           rel="stylesheet">
     <script defer src="assets/js/script.js"></script>
-    <title>Elisabeth Neuer - Data & UX Research</title>
+    <title>About | Elisabeth Neuer - Data & UX Research</title>
 </head>
 <body>
-<header>
-    <div class="container">
+    <header>
         <div class="navbar">
-            <div class="home-button">
-                <a href="index.html">Elisabeth Neuer</a>
+            <div class ="logo">
+                <a href="landingpage.html">Logo</a>
             </div>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="landingpage.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="projects/project1.html">Project 1</a></li>
-                    <li><a href="projects/project2.html">Project 2</a></li>
+                    <li><a href="projects/project3.html">Projects</a></li>
+                    <li><a href="projects/project3.html">Resume</a></li>
                 </ul>
+                <div class="burger" id="burger">&#9776;</div>
             </nav>
         </div>
-    </div>
-</header>
-<main>
-    <section class="about">
-        <div class="container">
-            <img src="assets/images/red_panda.jpg" alt="Profile Picture" class="profile-img">
-            <div class="about-text">
-                <h2>Introduction</h2>
-                <p>Hello! My name is Elisabeth Neuer, and I am a passionate UX researcher with a background in
-                    psychology and
-                    human factors interaction. I am dedicated to understanding user behaviors, needs, and motivations
-                    to create intuitive and enjoyable user experiences.</p>
-                <h2>Professional Background</h2>
-                <p>I have over three years of experience in UX research, working with diverse teams to design and
-                    improve
-                    digital products. My expertise lies in conducting user interviews, usability testing, surveys, and
-                    data analysis. I have collaborated with startups, agencies, and large corporations to enhance their
-                    products through user-centered design practices.</p>
-                <h2>Skills</h2>
-                <ul>
-                    <li>User Interviews & Surveys</li>
-                    <li>Usability Testing</li>
-                    <li>Persona Development</li>
-                    <li>Wireframing & Prototyping</li>
-                    <li>Data Analysis & Visualization</li>
-                    <li>Collaborative Design Workshops</li>
-                </ul>
-                <h2>Contact</h2>
-                <p>If you’d like to get in touch, feel free to email me at <a href="mailto:eneuer@outlook.de">eneuer@outlook.de</a>
-                    or connect with me on <a href="www.linkedin.com/in/elisabethneuer">LinkedIn</a>.</p>
-            </div>
+    </header>
+    <main>
+        <div class="about-hero">
+            <h1>About me</h1>
         </div>
-    </section>
-</main>
-<footer>
-    <div class="container">
-        <p>&copy; 2024 Elisabeth Neuer</p>
-    </div>
-</footer>
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./assets/images/AvatarMaker.svg" alt="Avatar of Woman">
+                    <p style="font-size: xx-small; color: hsla(220, 4%, 28%, 0.5);">Made with <a href="https://avatarmaker.com/"> avatarmaker</a></p>
+                </div>
+                <div class="about-text">
+                    <p>Hi &#9996<br>
+                    My name is Elli, I am a UX researcher with a background in
+                        <span class="highlight">psychology</span> and <span class="highlight">human factors</span> interaction.</br> 
+                        I further have a passion for quantitative <span class="highlight">data analysis.</span></p>
+
+                    <p>Using a <span class="highlight">multi-method approach</span>, I aim to understand user behaviours, motivations and needs in order to 
+                        create better <span class="highlight">digital products and experiences.</span></p>
+
+                    <p>My diverse industry experience span e-commerce, pharmacies, medtech and real estate.
+                        I've further worked in various environments, ranging from startups to corporates,
+                        alongside C-level or within multi-disciplinary product teams. <br>
+
+                        <a href="#contact" class="btn-hero highlight">Get in touch</a> &#8595;
+                      
+                    <h3>Skills</h3>
+                        <ul>
+                            <li>User Interviews</li>
+                            <li>Usability Testing</li>
+                            <li>Information Architecture Analyses</li>
+                            <li>Qualitative Analysis</li> <br>
+
+                            <li>Surveys & Questionnaires</li>
+                            <li>Card Sorting</li>                        
+                            <li>Usability Metrics</li>
+                            <li>Eye Tracking</li><br>
+
+                            <li>Data Analysis & Visualization w/ Python</li>
+                            <li>Statistical Analysis</li> <br>
+                        
+                            <li>Storytelling</li>
+                            <li>Presentation & Report Creation</li>
+                            <li>Workshop & Training Conduction</li> <br>
+
+                            <li>Stakeholder Management</li>
+                            <li>Continuous Research</li>
+                    </ul>
+                    <h3 id="contact">Contact</h3>
+                        <p>If you’d like to get in touch, feel free to email me at <a href="mailto:eneuer@outlook.de" s>eneuer@outlook.de</a> or connect with me on <a href="https://www.linkedin.com/in/elisabethneuer">LinkedIn</a>.</p>
+                </div>
+            </div>
+        </div>                  
+    </main>
+    <footer>
+        <div class="footer">
+           <p> &copy 2024 Elisabeth Neuer</p>
+        </div>
+    </footer>
 </body>
 </html>
