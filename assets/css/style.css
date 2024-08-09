@@ -346,8 +346,8 @@ footer p {
 }
 
 .project-content img {
-    max-width: 600px;
-    max-height: 450px;
+   width: 100%;
+   height: auto;
 }
 
 .project-content a {
@@ -361,6 +361,7 @@ footer p {
     justify-content: center;
     align-items: center;
     padding: 0 40px;
+    max-width: 450px;
 }
 
 .project-content-single {
