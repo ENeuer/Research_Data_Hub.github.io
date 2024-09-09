@@ -187,16 +187,6 @@ a.navbar-brand:hover {
     color:#45474B;
 }
 
-/* Footer Index */
-
-footer {
-    display: flex;
-    align-items: center;
-
-    
-}
-
-
 
  /* About Pages */
 
@@ -401,6 +391,12 @@ footer {
     align-items: center;
     padding: 0 40px;
     max-width: 450px;
+}
+
+.project-image p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2px;
 }
 
 .project-content-single {
