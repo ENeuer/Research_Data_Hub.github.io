@@ -135,7 +135,7 @@ a.navbar-brand:hover {
 
 .card img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 220px;
     display: block;
     object-fit: cover;
@@ -171,6 +171,31 @@ a.navbar-brand:hover {
     font-size: 0.9em;
     color: #666;
 }
+
+/* Further Index */
+
+.index-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.index-text a {
+    background-color: #f4ce14;
+    font-style: italic;
+    color:#45474B;
+}
+
+/* Footer Index */
+
+footer {
+    display: flex;
+    align-items: center;
+
+    
+}
+
 
 
  /* About Pages */
